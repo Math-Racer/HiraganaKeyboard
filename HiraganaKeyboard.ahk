@@ -2,8 +2,11 @@
 #SingleInstance Force
 
 isKanaMode := false
-englishIconPath := A_Temp "\englishIcon.ico"
-japaneseIconPath := A_Temp "\japaneseIcon.ico"
+iconDir := A_Temp "\HiraganaKeyboard_Icons"
+DirCreate iconDir
+
+englishIconPath := iconDir "\englishIcon.ico"
+japaneseIconPath := iconDir "\japaneseIcon.ico"
 
 FileInstall "englishIcon.ico", englishIconPath, 1
 FileInstall "japaneseIcon.ico", japaneseIconPath, 1

@@ -7,7 +7,7 @@ Follow these steps to use Hiragana Keyboard from source:
 Open a terminal or command prompt and run:
 
 ```sh
-git clone https://github.com/your-username/HiraganaKeyboard.git
+git clone https://github.com/Math-Racer/HiraganaKeyboard.git
 cd HiraganaKeyboard
 ```
 
