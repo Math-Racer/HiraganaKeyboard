@@ -45,6 +45,7 @@
 :c*:wa::わ
 :c*:wo::を
 :c*:nn::ん
+:c:n::ん ; This will help trigger ん from "n" when followed by default end chars - -()[]{}':;"/\,.?!`n`s`t
 
 ; (needed to detect "n" when typed inbetween letters)
 :c*:nb::
@@ -87,10 +88,6 @@
 :c*:nm::
 {
     Send "んm"
-}
-:c*:nn::
-{
-    Send "ん"
 }
 :c*:np::
 {
@@ -255,7 +252,7 @@
 :c*:WA::ワ
 :c*:WO::ヲ
 :c*:NN::ン
-
+:c:N::ン
 
 :c*:NB::
 {
@@ -296,10 +293,6 @@
 :c*:NM::
 {
     Send "ンM"
-}
-:c*:NN::
-{
-    Send "ン"
 }
 :c*:NP::
 {
