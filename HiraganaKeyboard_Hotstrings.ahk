@@ -44,8 +44,94 @@
 :c*:ro::ろ
 :c*:wa::わ
 :c*:wo::を
-::n::ん
 :c*:nn::ん
+
+; (needed to detect "n" when typed inbetween letters)
+:c*:nb::
+{
+    Send "んb"
+}
+:c*:nc::
+{
+    Send "んc"
+}
+:c*:nd::
+{
+    Send "んd"
+}
+:c*:nf::
+{
+    Send "んf"
+}
+:c*:ng::
+{
+    Send "んg"
+}
+:c*:nh::
+{
+    Send "んh"
+}
+:c*:nj::
+{
+    Send "んj"
+}
+
+:c*:nk::
+{
+    Send "んk"
+}
+:c*:nl::
+{
+    Send "んl"
+}
+:c*:nm::
+{
+    Send "んm"
+}
+:c*:nn::
+{
+    Send "ん"
+}
+:c*:np::
+{
+    Send "んp"
+}
+:c*:nq::
+{
+    Send "んq"
+}
+:c*:nr::
+{
+    Send "んr"
+}
+:c*:ns::
+{
+    Send "んs"
+}
+:c*:nt::
+{
+    Send "んt"
+}
+:c*:nv::
+{
+    Send "んv"
+}
+:c*:nw::
+{
+    Send "んw"
+}
+:c*:nx::
+{
+    Send "んx"
+}
+:c*:ny::
+{
+    Send "んy"
+}
+:c*:nz::
+{
+    Send "んz"
+}
 
 ; # Small kana
 :c*:xa::ぁ
@@ -168,8 +254,94 @@
 :c*:RO::ロ
 :c*:WA::ワ
 :c*:WO::ヲ
-::N::ン
 :c*:NN::ン
+
+
+:c*:NB::
+{
+    Send "ンB"
+}
+:c*:NC::
+{
+    Send "ンC"
+}
+:c*:ND::
+{
+    Send "ンD"
+}
+:c*:NF::
+{
+    Send "ンF"
+}
+:c*:NG::
+{
+    Send "ンG"
+}
+:c*:NH::
+{
+    Send "ンH"
+}
+:c*:NJ::
+{
+    Send "ンJ"
+}
+:c*:NK::
+{
+    Send "ンK"
+}
+:c*:NL::
+{
+    Send "ンL"
+}
+:c*:NM::
+{
+    Send "ンM"
+}
+:c*:NN::
+{
+    Send "ン"
+}
+:c*:NP::
+{
+    Send "ンP"
+}
+:c*:NQ::
+{
+    Send "ンQ"
+}
+:c*:NR::
+{
+    Send "ンR"
+}
+:c*:NS::
+{
+    Send "ンS"
+}
+:c*:NT::
+{
+    Send "ンT"
+}
+:c*:NV::
+{
+    Send "ンV"
+}
+:c*:NW::
+{
+    Send "ンW"
+}
+:c*:NX::
+{
+    Send "ンX"
+}
+:c*:NY::
+{
+    Send "ンY"
+}
+:c*:NZ::
+{
+    Send "ンZ"
+}
+
 
 :c*:XA::ァ
 :c*:XI::ィ
